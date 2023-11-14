@@ -1,0 +1,56 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e21414;
+    border-radius: 5px;
+    background-color: #04f200;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: right;
+    background-color: #ededed;
+    border: 1px solid #2d0404;
+    border-radius: 5px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin: 5px;
+    border: 1px solid #ff0ad2;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.button:hover {
+    width: 50.5px;
+    height: 50.5px;
+    background-color: #11ff00;
+}
+
+/* Add different colors for operations */
+.button.operator {
+    background-color: #ffa500; /* Orange */
+    color: #fff;
+}
+
+.button.operator:hover {
+    background-color: #ff8000; /* Darker orange */
+}
+
+/* Add a color for the "C" (Clear) button */
+.button.clear {
+    background-color: #ff3333; /* Red */
+    color: #fff;
+}
+
+.button.clear:hover {
+    background-color: #cc0000; /* Darker red */
+}
